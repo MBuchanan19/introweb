@@ -5,119 +5,398 @@ body{
 	margin: 0;
 }
 .banner{
-	background-color: brown;
-	padding: 50px;
+	background-color: #C6A27E;
+	padding: 35px;
 }
 
 #header{
 	margin: auto;
-  	width: 100%;
-  	border: 3px solid black;
-  	text-align: center;
-  	font-size: 40px;
-}
-
-.bookshelf{
-	background-color:brown; 
+	padding-left: 127px;
+  	width: 1350px;
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
+  	text-align: center;
+}
+
+.bookshelf{
+	background-color:#C6A27E; 
+	border-style: solid; 
+	border-width:thick; 
+	border-color: black; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
 	right: 0px;
 	margin: auto;
+	height: 600px;
 	width: 450px;
 	min-width: 200px;
   	padding: 10px;
 }
 
+.cubby {
+  position: absolute;
+  height: 200px;
+  width: 420px;
+  left: 20px;
+  top: 100px;
+  background-color: #975C2C;
+  border: solid black;
+  border-width: 5px;
+}
+
+.book{
+	 position: absolute; 
+	 height: 50px;
+  	 width: 150px;
+  	 background-color: #555;
+  	 border: solid black;
+  	 transform: rotate(90deg);
+}
+
 .closet{
-	background-color:brown; 
+	background-color:#C6A27E; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
 	left:0px;
 	margin: auto;
-	width: 850px;
+	height: 75px;
+	width: 975px;
 	min-width: 200px;
   	padding: 25px;
 }
 
 .playroom{
-	background-color:brown; 
+	background-color: #FFFDD0; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
-	right: 0px;
+	left: 0px;
+	top: 285px;
 	margin: auto;
-	width: 450px;
+	height: 1020px;
+	width: 975px;
 	min-width: 200px;
-  	padding: 10px;
+  	padding: 25px;
 }
 
 .tv{
-	background-color:brown; 
+	background-color:darkgray; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
-	right: 0px;
+	left: 25px;
+	top: 335px;
 	margin: auto;
-	width: 450px;
+	height: 450px;
+	width: 955px;
 	min-width: 200px;
   	padding: 10px;
+}
+
+#tvscreen{
+	background-color:grey; 
+	border-style: solid; 
+	border-width:thick; 
+	border-color: black; 
+	border-width: 20px;
+	border-radius: 2.5px; 
+	text-align: center;
+	position: absolute;
+	left: 40px;
+	top: 350px;
+	margin: auto;
+	height: 390px;
+	width: 895px;
+	min-width: 200px;
+  	padding: 10px;
+}
+
+.dots{
+  right: 0px;
+  bottom: 0px;
+  height:35px;
+  width: 35px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .phone{
-	background-color:brown; 
+	background-color:darkgray; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
-	right: 0px;
+	left: 25px;
+	top: 850px;
 	margin: auto;
-	width: 450px;
+	height: 450px;
+	width: 400px;
 	min-width: 200px;
   	padding: 10px;
 }
 
-.teddybear{
-	background-color:brown; 
+#phonescreen{
+	background-color:grey; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
-	right: 0px;
+	left: 53px;
+	top: 875px;
 	margin: auto;
-	width: 450px;
+	height: 400px;
+	width: 345px;
 	min-width: 200px;
   	padding: 10px;
 }
+
+
 
 .dresser{
-	background-color:brown; 
+	background-color: #C6A27E; 
 	border-style: solid; 
 	border-width:thick; 
 	border-color: black; 
-	border-radius: 5px; 
+	border-radius: 2.5px; 
 	text-align: center;
 	position: absolute;
 	right: 0px;
 	margin: auto;
+	height: 550px;
 	width: 450px;
 	min-width: 200px;
   	padding: 10px;
+  	top: 785px;
+}
+
+.handle{
+	position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    border: solid black;
+    background-color: #654321;
+}
+
+.comicfont{
+  font-family: "cc-deadline-open-variable",sans-serif;
+  font-variation-settings: 'wdth' 150, 'slnt' 50;
+}
+
+.darkfont{
+  font-family: "cc-deadline-variable",sans-serif;
+  font-variation-settings: 'wdth' 150, 'slnt' 50;
+
+}
+
+.smallfont {
+  font-family:  "cc-deadline-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'slnt' 50;
+}
+
+
+.left-ear {
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background: #654321;
+    border-radius: 50%;
+    border: solid black;
+	left: 615px;
+	top: 850px;
+}
+
+.right-ear {
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background: #654321;
+    border-radius: 50%;
+    border: solid black;
+	left: 755px;
+	top: 850px;
+}
+
+
+.head {
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #654321;
+    border-radius: 50%;
+    border: solid black;
+	left: 625px;
+	top: 875px;
+}
+
+.left-eye{
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    border: solid black;
+    top: 25px;
+    left: 35px;
+}
+
+.right-eye{
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    border: solid black;
+    top: 25px;
+    left: 115px;
+}
+
+.left-pupil{
+  border-radius:50px 50px 50px 50px / 100px 100px 50px 50px;
+  border: solid black;
+  width:20px;
+  height:40px;
+  background: black;
+  position: absolute;
+  top: 12.5px;
+  left: 15px;
+
+}
+
+.right-pupil{
+  border-radius:50px 50px 50px 50px / 100px 100px 50px 50px;
+  border: solid black;
+  width:20px;
+  height:40px;
+  background: black;
+  position: absolute;
+  top: 12.5px;
+  left: 15px;
+
+}
+
+.nose {
+	text-align: center;
+	margin: auto;
+  	padding: 5px;	
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background: #EFC081;
+    border-radius: 50%;
+    border: solid black;
+    bottom: 40px;
+    left: 60px;
+}
+
+.triangle-down {
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid black;
+	left: 17.5px;
+	top: 10px;
+}
+
+.sign {
+  height: 225px;
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  padding: 5px;	
+  position: absolute;
+  background: gray;
+  border: solid black;
+  left: 560px;
+  top: 1010px;
+}
+.left-hand{
+	position: absolute;
+    top: 50%;
+    right: 285px;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    border: solid black;
+    background-color: #654321;
+    transform: rotate(90deg);
+}
+
+.right-hand{
+	position: absolute;
+    top: 50%;
+    left: 285px;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    border: solid black;
+    background-color: #654321;
+    transform: rotate(-90deg);
+}
+
+.clothes {
+  height: 50px;
+  width: 200px;
+  background-color: #53682A;
+  border: solid black;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+}
+
+.clothesalign{
+	position: absolute; 
+	margin-left: 20%; 
+	text-align:center; 
+	top: -10px;"
+}
+
+.picture1 {
+   width:50px; /*width of your image*/
+   height:50px; /*height of your image*/
+   background-image:url("instagram.jpg");
+   position: absolute;
 }
